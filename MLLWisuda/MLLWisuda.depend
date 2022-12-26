@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1672042778 source:f:\c++\mllwisuda\main.cpp
+	"wisuda.h"
+
+1672041720 source:f:\c++\mllwisuda\wisuda.cpp
+	"wisuda.h"
+
+1672041749 f:\c++\mllwisuda\wisuda.h
+	<iostream>
+
