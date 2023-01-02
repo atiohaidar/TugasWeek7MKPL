@@ -72,7 +72,7 @@ int main()
 
     w.nama = "Fina Hari";
     w.gender = "Perempuan";
-    w.nim = 1302213141;
+    w.nim = 1302213147;
     w.ipk = 3.7;
     w.semester = 9;
     w.sakit = "Tidak";
@@ -162,7 +162,7 @@ int main()
 
     w.nama = "Budi_Kusuma";
     w.gender = "Laki-Laki";
-    w.nim = 1302213141;
+    w.nim = 1302213149;
     w.ipk = 3.8;
     w.semester = 8;
     w.sakit = "Tidak";
