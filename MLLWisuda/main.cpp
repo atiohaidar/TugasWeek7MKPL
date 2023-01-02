@@ -9,53 +9,6 @@ int main()
 
     createListWisudawan(W);
     createListKursiWisuda(S);
-    /*
-    for (int i = 1; i <= 10;i++){
-        s.jenis = "Cumlaude";
-        if (i == 1){
-            s.banjar = i;
-            s.khusus = "Sakit";
-            insertLastSi(S, newElemenKursiWisuda(s));
-        }else if (i == 2){
-            while (i <= 4){
-                s.banjar = i;
-                s.khusus = "Perempuan";
-                i = i + 1;
-                insertLastSi(S, newElemenKursiWisuda(s));
-                if(i==4){
-                    while (i <= 6){
-                        s.banjar = i;
-                        s.khusus = "Laki-Laki";
-                        i = i + 1;
-                        insertLastSi(S, newElemenKursiWisuda(s));
-                        if (i == 6){
-                            s.jenis = "Tanpa Predikat";
-                            while (i <= 8){
-                                s.banjar = i;
-                                s.khusus = "Perempuan";
-                                i = i + 1;
-                                insertLastSi(S, newElemenKursiWisuda(s));
-                                if (i == 8){
-                                    while (i <= 9){
-                                        s.banjar = i;
-                                        s.khusus = "Laki-Laki";
-                                        i = i + 1;
-                                        insertLastSi(S, newElemenKursiWisuda(s));
-                                        if (i == 10){
-                                            s.banjar = i;
-                                            s.khusus = "Sakit";
-                                            insertLastSi(S, newElemenKursiWisuda(s));
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    */
 
     s.jenis = "Cumlaude";
     s.banjar = 1;
@@ -106,33 +59,7 @@ int main()
     s.banjar = 5;
     s.khusus = "Sakit";
     insertLastSi(S, newElemenKursiWisuda(s));
-    /*
-    for (int i = 11; i <= 20;i++){
-        s.jenis = "Tanpa Predikat";
-        if (i == 11){
-            while (i <= 14){
-                s.banjar = i;
-                s.khusus = "Perempuan";
-                i = i + 1;
-                insertLastSi(S, newElemenKursiWisuda(s));
-                if (i == 14){
-                    while (i <= 19){
-                        s.banjar = i;
-                        s.khusus = "Laki-Laki";
-                        i = i + 1;
-                        insertLastSi(S, newElemenKursiWisuda(s));
-                        if (i == 20){
-                            s.banjar = i;
-                            s.khusus = "Sakit";
-                            insertLastSi(S, newElemenKursiWisuda(s));
-                        }
-                    }
-                }
-            }
-        }
-    }
-    */
-
+    
     w.nama = "Rudi_Tabuti";
     w.gender = "Laki-Laki";
     w.nim = 1302213141;
