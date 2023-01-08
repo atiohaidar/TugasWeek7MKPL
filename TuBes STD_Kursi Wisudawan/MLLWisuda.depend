@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1672638933 source:f:\c++\mllwisuda\main.cpp
+	"wisuda.h"
+
+1672638685 source:f:\c++\mllwisuda\wisuda.cpp
+	"wisuda.h"
+
+1672638546 f:\c++\mllwisuda\wisuda.h
+	<iostream>
+
+1672638685 source:c:\users\asus\downloads\tubes std\tubes std_kursi wisuda\wisuda.cpp
+	"wisuda.h"
+
+1672638546 c:\users\asus\downloads\tubes std\tubes std_kursi wisuda\wisuda.h
+	<iostream>
+
+1672641463 source:c:\users\asus\downloads\tubes std\tubes std_kursi wisuda\main.cpp
+	"wisuda.h"
+
+1672641463 source:c:\users\asus\downloads\tubes std\tubes std_kursi wisudawan\main.cpp
+	"wisuda.h"
+
+1672638546 c:\users\asus\downloads\tubes std\tubes std_kursi wisudawan\wisuda.h
+	<iostream>
+
+1672755059 source:c:\users\asus\downloads\tubes std\tubes std_kursi wisudawan\wisuda.cpp
+	"wisuda.h"
+
