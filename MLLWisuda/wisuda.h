@@ -56,5 +56,7 @@ void showDenahPerBanjarC(listWan W, int j);
 void showDenahPerBanjarTP(listWan W, int j);
 void showDenahKeseluruhan(listWan W);
 void showSatuLokasiKursi(listWan W, string nama, int nim);
+void hapusDataWisudawan(listWan &W, string nama, int nim);
+void hapusKursiWisudawan(listSi &S, int banjar, string jenis);
 
 #endif // WISUDA_H_INCLUDED
