@@ -86,7 +86,7 @@ void autoKursi(listSi &S, adrWan Ww){
                 child(w) = s;
                 break;
             //Sakit Tanpa Predikat (IPK diatas 3,5 dan semester tidak memenuhi) (Kursi banjar 5 Tanpa Predikat)
-            }else if (info(w).sakit == "Ya" && info(w).ipk > 3.5 && info(w).semester > 8 && info(w).sakit == "Ya"&& info(s).khusus == "Sakit" && info(s).jenis == "Tanpa Predikat" && info(s).banjar==5){
+            }else if (info(w).sakit == "Ya" && info(w).ipk > 3.5 && info(w).semester > 8 && info(w).sakit == "Ya"&& info(s).khusus == "Sakit" && info(s).jenis == "Tanpa_Predikat" && info(s).banjar==5){
                 child(w) = s;
                 break;
 
@@ -101,7 +101,7 @@ void autoKursi(listSi &S, adrWan Ww){
                 }
 
             //Perempuan Tanpa Predikat (IPK diatas 3,5 dan semester tidak memenuhi) (Kursi banjar 1 dan 2 Tanpa Predikat)
-            }else if(info(w).gender == "Perempuan" && info(w).ipk > 3.5 && info(w).semester > 8 && info(w).sakit == "Tidak"&& info(s).khusus == "Perempuan" && info(s).jenis=="Tanpa Predikat"){
+            }else if(info(w).gender == "Perempuan" && info(w).ipk > 3.5 && info(w).semester > 8 && info(w).sakit == "Tidak"&& info(s).khusus == "Perempuan" && info(s).jenis=="Tanpa_Predikat"){
                 if (info(w).nim%2!=0 && info(s).banjar==1){
                     child(w)=s;
                     break;
@@ -120,7 +120,7 @@ void autoKursi(listSi &S, adrWan Ww){
                 }
 
             //Laki-Laki Tanpa Predikat (IPK diatas 3,5 dan semester tidak memenuhi) (Kursi banjar 3 dan 4 Tanpa Predikat)
-            }else if(info(w).gender == "Laki-Laki" && info(w).ipk> 3.5 && info(w).semester > 8 && info(w).sakit == "Tidak"&& info(s).khusus == "Laki-Laki" && info(s).jenis=="Tanpa Predikat"){
+            }else if(info(w).gender == "Laki-Laki" && info(w).ipk> 3.5 && info(w).semester > 8 && info(w).sakit == "Tidak"&& info(s).khusus == "Laki-Laki" && info(s).jenis=="Tanpa_Predikat"){
                 if (info(w).nim%2!=0 && info(s).banjar==3){
                     child(w)=s;
                     break;
@@ -130,7 +130,7 @@ void autoKursi(listSi &S, adrWan Ww){
                 }
 
             //Perempuan Tanpa Predikat (IPK 3,5 atau dibawahnya) (Kursi banjar 1 dan 2 Tanpa Predikat)
-            }else if(info(w).gender == "Perempuan" && info(w).ipk<= 3.5 && info(w).sakit == "Tidak"&& info(s).khusus == "Perempuan" && info(s).jenis=="Tanpa Predikat"){
+            }else if(info(w).gender == "Perempuan" && info(w).ipk<= 3.5 && info(w).sakit == "Tidak"&& info(s).khusus == "Perempuan" && info(s).jenis=="Tanpa_Predikat"){
                 if (info(w).nim%2!=0 && info(s).banjar==1){
                     child(w)=s;
                     break;
@@ -140,7 +140,7 @@ void autoKursi(listSi &S, adrWan Ww){
                 }
 
             //Laki-Laki Tanpa Predikat (IPK 3,5 atau dibawahnya) (Kursi banjar 3 dan 4 Tanpa Predikat)
-            }else if(info(w).gender == "Laki-Laki" && info(w).ipk<= 3.5 && info(w).sakit == "Tidak"&& info(s).khusus == "Laki-Laki" && info(s).jenis=="Tanpa Predikat"){
+            }else if(info(w).gender == "Laki-Laki" && info(w).ipk<= 3.5 && info(w).sakit == "Tidak"&& info(s).khusus == "Laki-Laki" && info(s).jenis=="Tanpa_Predikat"){
                 if (info(w).nim%2!=0 && info(s).banjar==3){
                     child(w)=s;
                     break;
@@ -150,7 +150,7 @@ void autoKursi(listSi &S, adrWan Ww){
                 }
 
             //Sakit Tanpa Predikat (IPK 3,5 atau dibawahnya) (Kursi banjar 5 Tanpa Predikat)
-            }else if(info(w).sakit == "Ya" && info(w).ipk <= 3.5 && info(w).sakit == "Ya"&& info(s).khusus == "Sakit" && info(s).jenis == "Tanpa Predikat" && info(s).banjar==5){
+            }else if(info(w).sakit == "Ya" && info(w).ipk <= 3.5 && info(w).sakit == "Ya"&& info(s).khusus == "Sakit" && info(s).jenis == "Tanpa_Predikat" && info(s).banjar==5){
                 child(w) = s;
                 break;
             }
@@ -186,7 +186,7 @@ void showDenahPerBanjarTP(listWan W, int j){
     int i = 0;
     while (w != nil){
         adrSi s = child(w);
-        if(info(s).banjar==j && info(s).jenis=="Tanpa Predikat"){
+        if(info(s).banjar==j && info(s).jenis=="Tanpa_Predikat"){
             i = i + 1;
             cout << "\t\t\t\t\t\t\t"<<"/ "<< "==================================" << " \\"<<endl;
             cout << "\t\t\t\t\t\t\t"<<"\t    "<<info(s).jenis<<endl;
@@ -226,10 +226,42 @@ void showSatuLokasiKursi(listWan W, string nama, int nim){
 }
 
 void showDenahKeseluruhan(listWan W){
-    for(int i = 1;i<=5;i++){
+    for(int i = 1;i<=10;i++){
         showDenahPerBanjarC(W,i);
     }
-    for(int i = 1;i<=5;i++){
+    for(int i = 1;i<=10;i++){
         showDenahPerBanjarTP(W,i);
     }
+}
+
+void hapusDataWisudawan(listWan &W, string nama, int nim){
+    adrWan w= first(W);
+    adrWan Ww = nil;
+    while(w != nil && (info(w).nama != nama || info(w).nim != nim)){
+        Ww = w;
+        w = next(w);
+    }
+    if(w == nil) return;
+    if(Ww == nil){
+        first(W)= next(first(W));
+    }else{
+        next(Ww) = next(w);
+    }
+    w = nil;
+}
+
+void hapusKursiWisudawan(listSi &S, int banjar, string jenis){
+    adrSi s= first(S);
+    adrSi Ss = nil;
+    while(s != nil && (info(s).banjar != banjar || info(s).jenis != jenis)){
+        Ss = s;
+        s = next(s);
+    }
+    if(s == nil) return;
+    if(Ss == nil){
+        first(S)= next(first(S));
+    }else{
+        next(Ss) = next(s);
+    }
+    s = nil;
 }
