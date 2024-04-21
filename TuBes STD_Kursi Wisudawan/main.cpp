@@ -44,8 +44,8 @@ int main()
     s.banjar = 1;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-
-    s.jenis = "Tanpa Predikat";
+//Ubah Tanpa predikat menjadi cumlaude//
+    s.jenis = "Cumlaude";
     s.banjar = 2;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
