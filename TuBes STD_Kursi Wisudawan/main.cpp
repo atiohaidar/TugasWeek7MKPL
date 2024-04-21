@@ -42,12 +42,12 @@ int main()
     s.banjar = 1;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-//Ubah tanpa predikat jadi cmlaude//
+//Ubah tanpa predikat jadi cumlaude dcaaasda//
     s.jenis = "Cumlaude";
     s.banjar = 2;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-
+//Tambah lagi//
     s.jenis = "Tanpa Predikat";
     s.banjar = 3;
     s.khusus = "Laki-Laki";
