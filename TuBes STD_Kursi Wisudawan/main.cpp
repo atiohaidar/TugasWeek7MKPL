@@ -12,7 +12,7 @@ int main()
 
     createListWisudawan(W);
     createListKursiWisuda(S);
-
+//irfan Feature-1//
     s.jenis = "Cumlaude";
     s.banjar = 1;
     s.khusus = "Sakit";
