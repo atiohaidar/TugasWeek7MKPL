@@ -44,12 +44,12 @@ int main()
     s.banjar = 1;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-//Hellooo hhhh//
-    s.jenis = "Tanpa Predikat";
+//Ubah Tanpa predikat menjadi cumlaude//
+    s.jenis = "Cumlaude";
     s.banjar = 2;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-
+//Tambah lagi//
     s.jenis = "Tanpa Predikat";
     s.banjar = 3;
     s.khusus = "Laki-Laki";
