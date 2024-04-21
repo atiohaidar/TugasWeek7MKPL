@@ -3,6 +3,7 @@ int main()
 {
 
     //BURHAN NEW FEATURE 2
+    //FIXED
 
     listWan W;
     listSi S;
