@@ -43,7 +43,7 @@ int main()
     s.banjar = 1;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-
+//Hellooo hhhh//
     s.jenis = "Tanpa Predikat";
     s.banjar = 2;
     s.khusus = "Perempuan";
