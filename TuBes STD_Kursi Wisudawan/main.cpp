@@ -1,6 +1,9 @@
 #include "wisuda.h"
 int main()
 {
+
+    //BURHAN NEW FEATURE 2
+
     listWan W;
     listSi S;
     adrWan Ww;
