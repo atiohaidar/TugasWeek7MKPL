@@ -1,7 +1,5 @@
 #include "wisuda.h"
 
-//BURHAN NEW FEATURE 1
-
 void createListWisudawan(listWan &L){
     first(L) = nil;
 }
