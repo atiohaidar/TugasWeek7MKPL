@@ -14,7 +14,7 @@ int main()
 
     createListWisudawan(W);
     createListKursiWisuda(S);
-
+//irfan Feature-1//
     s.jenis = "Cumlaude";
     s.banjar = 1;
     s.khusus = "Sakit";
@@ -29,7 +29,7 @@ int main()
     s.banjar = 3;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-
+//Hellooooooooooo pindah develop
     s.jenis = "Cumlaude";
     s.banjar = 4;
     s.khusus = "Laki-Laki";
@@ -44,12 +44,12 @@ int main()
     s.banjar = 1;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-//Hellooo hhhh//
+
     s.jenis = "Tanpa Predikat";
     s.banjar = 2;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-
+//Tambah lagi//
     s.jenis = "Tanpa Predikat";
     s.banjar = 3;
     s.khusus = "Laki-Laki";
