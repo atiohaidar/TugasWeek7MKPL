@@ -12,7 +12,7 @@ int main()
 
     createListWisudawan(W);
     createListKursiWisuda(S);
-
+//irfan Feature-1//
     s.jenis = "Cumlaude";
     s.banjar = 1;
     s.khusus = "Sakit";
@@ -27,7 +27,7 @@ int main()
     s.banjar = 3;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-
+//Hellooooooooooo pindah develop
     s.jenis = "Cumlaude";
     s.banjar = 4;
     s.khusus = "Laki-Laki";
