@@ -27,7 +27,7 @@ int main()
     s.banjar = 3;
     s.khusus = "Perempuan";
     insertLastSi(S, newElemenKursiWisuda(s));
-
+//Hellooooooooooo pindah develop
     s.jenis = "Cumlaude";
     s.banjar = 4;
     s.khusus = "Laki-Laki";
